@@ -1,0 +1,158 @@
+.container-fluid {
+  height: 100vh;
+
+}
+
+.col-border {
+  border: 1px solid #000;
+  padding: 18px;
+}
+
+#top_row {
+  height: 5%;
+  background-color: #9B9B8D;
+  border-top: 1px solid #000;
+}
+
+#top_col {
+  height: 5%;
+}
+
+#middle_row {
+  height: 90%;
+}
+
+#bottom_row {
+  height: 5%;
+}
+
+#bottom_col {
+  vertical-align: baseline;
+  padding-top: 5px;
+  color: white;
+}
+
+.header {
+  height: 5%;
+  background-color: #9B9B8D;
+}
+
+.footer {
+  height: 5%;
+  background-color: #68685A;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}
+
+#top_row_pl {
+  height: 20%;
+  background-color: #9B9B8D;
+}
+
+#second_row_pl {
+  height: 20%;
+}
+
+#third_row_pl {
+  height: 55%;
+}
+
+/*move all row in right side to center*/
+.col-md-6.row {
+  margin: 0 auto;
+  float:none;
+}
+
+#pic1,#pic2,#pic3 {
+ height: 29vh;
+ margin: 0 auto;
+ margin-left: 260px;
+ margin-top: 3px;
+ display: block;
+ position: relative;
+}
+
+#middle_colleft {
+  margin: 0;
+  padding-top: 200px;
+}
+
+.button1 {
+  background-color: #333326;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+.button2 {
+  background-color: #333326;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 15vw;
+  margin: 0 auto;
+}
+
+.button3 {
+  background-color: #333326;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 15vw;
+  margin: 0 auto;
+}
+
+
+h1 {
+  font-size: 65px;
+  color: #4F2567;
+  margin: 0 auto;
+  /*vertical-align: middle;*/
+}
+
+h3 {
+  color: white;
+  padding: 90px 20px 0px 40px;
+}
+
+h5 {
+  color: white;
+  padding-top: 5px;
+}
+
+
+#track {
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  opacity: 0.19;
+}
+
+.bin {
+  border: 1px solid #000;
+  /*padding: 40px;*/
+  margin: 5px;
+  height: 30vh;
+  background-color: #EEEEEE;
+}
+
+#col1 {
+  overflow-x:scroll;
+  width: 100vw;
+  white-space: nowrap;
+}
+
+#col1 img {
+  padding: 15px;
+}
+
+#listBin {
+  padding-left: 0;
+}
